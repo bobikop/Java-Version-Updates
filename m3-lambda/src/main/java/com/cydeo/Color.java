@@ -1,6 +1,6 @@
 package com.cydeo;
 
-public enum Color {
+public enum Color  {
     RED,GREEN
 
 }
