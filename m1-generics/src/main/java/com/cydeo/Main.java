@@ -12,7 +12,7 @@ public class Main {
         items.add(2);
         items.add(3);
         items.add(4);
-//        items.add("Apple");
+//      items.add("Apple");
 
 
 
@@ -28,8 +28,8 @@ public class Main {
         Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team accepting any object
 
 
-//        liverpool.addPlayer(joe);
-//        liverpool.addPlayer(pat);
+//      liverpool.addPlayer(joe);
+//      liverpool.addPlayer(pat);
         liverpool.addPlayer(beckham);
 
     }
