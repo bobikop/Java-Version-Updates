@@ -41,15 +41,15 @@ public class Main {
         System.out.println("How to retrieve the constant value");
         System.out.println(Currency.PENNY.getValue());
         System.out.println(Currency.QUARTER.ordinal());
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------");
         Currency en= Currency.DIME;
 
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------");
 
         Currency.DIME.method();
         Currency.QUARTER.method();
         Currency.PENNY.method();
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------");
     }
 
     private static void calculate (double x, double y, Operation operation){ // put operation so we can use them form enum

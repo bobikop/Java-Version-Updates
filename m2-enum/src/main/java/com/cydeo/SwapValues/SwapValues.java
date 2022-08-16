@@ -9,7 +9,7 @@ public class SwapValues {
         System.out.println(Arrays.toString(a));
 
     }
-    private static<T> void swap(T[] a, int i, int j){
+    private static<T> void swap(T[] a, int i, int j){ // swap method
         T temp = a[i];
         a[i]=a[j];
         a[j]= temp;

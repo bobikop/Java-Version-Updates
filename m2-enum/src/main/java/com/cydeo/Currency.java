@@ -1,7 +1,7 @@
 package com.cydeo;
 
 public enum Currency {
-    PENNY(1), NICKLE(5), DIME(10), QUARTER(25);  // this is objects of Currency class ;
+    PENNY(1), NICKLE(5), DIME(10), QUARTER(25);  // this is objects of Currency, class ;
 
     int value;
 
