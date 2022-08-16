@@ -6,4 +6,5 @@ public class AppleGreenColorPredicate implements ApplePredicate{
         return apple.getColor().equals(Color.GREEN);
     }
 
+
 }
