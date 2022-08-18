@@ -7,8 +7,6 @@ import java.util.List;
 public class OrangeTest {
     public static void main(String[] args) {
 
-
-
         List<Orange> inventory = new ArrayList<Orange>();
         inventory.add(new Orange(300, Color.GREEN));
         inventory.add(new Orange(100,Color.RED));
@@ -32,6 +30,9 @@ public class OrangeTest {
     }
 
 
+
+    //Task
+    // Convert to ready functional interface
 
     private static void prettyPrintOrange(List <Orange> inventory, OrangeFormatter formatter){
         for (Orange orange :inventory){
