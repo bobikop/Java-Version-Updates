@@ -38,6 +38,13 @@ public class StreamOperations {
 
         System.out.println("----------------------------------------------------------------------------------------");
 
+        //skip
+        list.stream()
+                .filter(i -> i % 2 == 0)
+                .skip(1)
+                .forEach(System.out :: println);
+
+        System.out.println("----------------------------------------------------------------------------------------");
 
 
     }
