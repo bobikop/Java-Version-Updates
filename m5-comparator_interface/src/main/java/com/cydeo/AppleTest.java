@@ -15,23 +15,39 @@ public class AppleTest {
         inventory.add(new Apple(50,Color.RED));
 
 
-        Comparator<Apple> sortApple = comparing((Apple apple) -> apple.getWeight());
+//        Comparator<Apple> sortApple = comparing((Apple apple) -> apple.getWeight());
+//        inventory.sort(sortApple);
+//        System.out.println(inventory);
+//
+//        // we can call instance method directly with the class name
+//        inventory.sort(comparing((Apple::getWeight)));
+//        System.out.println(inventory);
+//
+//        //Reversed
+//        inventory.sort(comparing(Apple :: getWeight).reversed());
+//        System.out.println(inventory);
+//
+//        //Chaining
+//        inventory
+//                .sort(comparing(Apple :: getWeight)
+//                        .reversed().thenComparing(Apple :: getColor));
+
+
+
+        Comparator<Apple> sortApple = comparing(apple -> apple.getWeight());
         inventory.sort(sortApple);
         System.out.println(inventory);
 
-        // we can call instance method directly with the class name
-        inventory.sort(comparing((Apple::getWeight)));
+        System.out.println("------------------------------------------------");
+
+        inventory.sort(comparing(apple -> apple.getWeight()));
         System.out.println(inventory);
 
-        //Reversed
-        inventory.sort(comparing(Apple :: getWeight).reversed());
+        inventory.sort(comparing(Apple :: getWeight));
         System.out.println(inventory);
 
-        //Chaining
-        inventory
-                .sort(comparing(Apple :: getWeight)
-                        .reversed().thenComparing(Apple :: getColor));
 
+        System.out.println("------------------------------------------------");
 
 
 
