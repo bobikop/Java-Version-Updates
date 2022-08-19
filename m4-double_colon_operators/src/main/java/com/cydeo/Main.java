@@ -34,6 +34,7 @@ public class Main {
         BiFunction<String, Integer,String> func2 = (str,i) -> str.substring(i);
 
         Function<Integer,Double> b = new MyClass() :: method;
+
         BiFunction<MyClass,Integer,Double> b1 = MyClass :: method;
 
         System.out.println("Second hour of class ---------------------------------------");
