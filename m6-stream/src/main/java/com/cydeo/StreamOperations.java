@@ -46,6 +46,21 @@ public class StreamOperations {
 
         System.out.println("----------------------------------------------------------------------------------------");
 
+        // map - manipulate
+        list.stream()
+                .map(number -> number * 2)
+                .filter( i -> i % 3 == 0)
+                .forEach(System.out :: print);
+        System.out.println("----------------------------------------------------------------------------------------");
+
+
+        List<String> words  = Arrays.asList("JAVA", "APPLE", "HONDA", "DEVELOPER");
+
+        words.stream()
+                .map(i -> i.length())
+                .forEach(System.out :: print);
+
+
 
     }
 }
