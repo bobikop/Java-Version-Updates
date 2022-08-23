@@ -1,4 +1,4 @@
-package com.java14;
+package com.cydeo.java14;
 
 public class SwitchCaseDemo {
     public static void main(String[] args) {
