@@ -34,7 +34,7 @@ public class DishTask {
         // 4. Print all dish name that are bellow 400 calories in sorted
         DishData.getAll().stream()
                 .filter(dish -> dish.getCalories() < 400)
-                .sorted(comparing(Dish::getCalories).reversed())
+                .sorted(comparing(Dish :: getCalories).reversed())
                 .map(Dish :: getName)
                 .forEach(System.out :: println);
 
