@@ -1,6 +1,8 @@
 package com.cydeo;
 
-public class Player {
+public abstract class Player {
+
+    // creating this class with purpuse of  holding user name
     private String name;
 
     public Player(String name) {

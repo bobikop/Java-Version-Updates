@@ -7,6 +7,7 @@ public class Team <T extends  Player>{ //T for type
 
     private String name;
     private List<T> members = new ArrayList<T>();
+    private List<Player> members1 = new ArrayList<>(); // by using polymorphism we use Player
 
     public Team(String name) {
         this.name = name;
