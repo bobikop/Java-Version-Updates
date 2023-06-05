@@ -14,8 +14,6 @@ public class Main {
         items.add(4);
 //      items.add("Apple");
 
-
-
         printDoubled(items);
 
 
@@ -33,7 +31,6 @@ public class Main {
         liverpool.addPlayer(beckham);
 
     }
-
     private static void printDoubled(ArrayList<Integer> items) {
         for(Integer i : items){
             System.out.println(i*2);
