@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Boban Milosevic");
 
+
+        // withoiut generic <> ArrayList will accept any object which will be in conflict with implementation
         ArrayList<Integer> items = new ArrayList<Integer>();  //ArrayList only accepts objects belongs to Integer class
 
         items.add(1);
