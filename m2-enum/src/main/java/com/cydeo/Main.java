@@ -34,14 +34,8 @@ public class Main {
 
         }
 
-
-
-
-
-
         System.out.println("Operation Tsk");
         calculate(3,8,Operation.PLUS);
-
 
         System.out.println("How to retrieve the constant value");
         System.out.println(Currency.PENNY.getValue());
