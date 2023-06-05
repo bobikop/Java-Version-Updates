@@ -29,7 +29,7 @@ public class Main {
 
         // to do restriction and filter which plyer can be added in our specific team we use <>> generic
 
-//      liverpool.addPlayer(joe);
+//      liverpool.addPlayer(joe);  // since we declare generic type those two players can not be added to soccer team
 //      liverpool.addPlayer(pat);
         liverpool.addPlayer(beckham);
 
