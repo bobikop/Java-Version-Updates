@@ -13,7 +13,6 @@ public enum Currency {
         return value;
     }
 
-
     void method(){
         System.out.println(1);
     }
