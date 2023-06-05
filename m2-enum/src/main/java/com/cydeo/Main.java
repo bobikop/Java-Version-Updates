@@ -18,21 +18,26 @@ public class Main {
         }
 
         System.out.println("How to use switch-case with enums");
+  // we can access to enum constants by using switch
 
-        switch((Currency.PENNY)){// this is how we access enum constants
+
+        switch(Currency.PENNY){
             case PENNY:
                 System.out.println("It is 1 cent");
-                break;
             case NICKLE:
                 System.out.println("It is 5 cents");
-                break;
             case DIME:
                 System.out.println("It is 10 cents");
-                break;
             case QUARTER:
                 System.out.println("It is 25 cents");
                 break;
+
         }
+
+
+
+
+
 
         System.out.println("Operation Tsk");
         calculate(3,8,Operation.PLUS);
