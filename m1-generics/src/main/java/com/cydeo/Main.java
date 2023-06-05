@@ -27,6 +27,7 @@ public class Main {
 
         Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team accepting any object
 
+        // to do restriction and filter which plyer can be added in our specific team we use <>> generic
 
 //      liverpool.addPlayer(joe);
 //      liverpool.addPlayer(pat);
