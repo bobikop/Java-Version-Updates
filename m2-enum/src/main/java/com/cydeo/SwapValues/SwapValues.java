@@ -12,6 +12,5 @@ public class SwapValues {
         T temp = a[i];
         a[i]=a[j];
         a[j]= temp;
-
     }
 }
