@@ -1,5 +1,7 @@
 package com.cydeo;
 
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("How to access a constant");
@@ -20,6 +22,11 @@ public class Main {
         System.out.println("How to use switch-case with enums");
   // we can access to enum constants by using switch
 
+
+/*        LocalDate today = LocalDate.now();
+        System.out.println("today = " + today);
+        LocalDate date1= LocalDate.of(1982,03,06);
+        System.out.println(date1);*/
 
         switch(Currency.PENNY){
             case PENNY:
