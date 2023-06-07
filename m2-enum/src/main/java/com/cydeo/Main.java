@@ -31,7 +31,6 @@ public class Main {
             case QUARTER:
                 System.out.println("It is 25 cents");
                 break;
-
         }
 
         System.out.println("Operation Tsk");
