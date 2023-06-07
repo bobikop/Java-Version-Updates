@@ -10,7 +10,6 @@ public class CountTest {
         int count = countIf(ci, new OddPredicate());
         System.out.println("Number of odd integers = " + count);
     }
-
     // countIf method will be generic so method can accept other possible classes as well not just OddPredicate
     // for example UnaryPredicate can accept oddPredicate or evenPredicate ....
     private static <T> int countIf(List<T> c, UnaryPredicate<T> p){
