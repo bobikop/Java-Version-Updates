@@ -14,11 +14,9 @@ public class AppleTest {
 
         inventory.forEach(apple -> System.out.println(apple));
 
-
         AppleHeavyPredicate abc = new AppleHeavyPredicate();
         List<Apple> heavyApple = filterApples(inventory,abc);
         System.out.println(heavyApple);
-
 
         List<Apple> greenApple = filterApples(inventory,new AppleGreenColorPredicate());
         System.out.println(greenApple);
