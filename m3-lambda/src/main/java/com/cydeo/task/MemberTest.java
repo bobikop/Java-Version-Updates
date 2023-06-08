@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MemberTest {
-
     public static void main(String[] args) {
 
         Person p1 = new Person("mike",35,Gender.MALE);
