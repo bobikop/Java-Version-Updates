@@ -10,6 +10,7 @@ import lombok.*;
 @Data
 @AllArgsConstructor
 public class User {
+
     private String firsName;
     private String lastName;
     private int age;

@@ -8,7 +8,6 @@ import java.util.function.Predicate;
 public class UserTest {
     public static void main(String[] args) {
 
-
         List<User> users = new ArrayList<>();
 
         users.add(new User("Mike","Smith",35));
