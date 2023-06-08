@@ -11,5 +11,5 @@ public class Apple {
 
 
     // replacing code field for getter and to String method with above lombok annotation
-    // on this way we avoid so called boilerplate or verbose code.
+    // on this way we avoid boilerplate or verbose code.
 }
