@@ -16,6 +16,5 @@ public class Orange { // thi is first step to create Orange class and we can use
   private int weight;
   private Color color;
 
-
 }
 
