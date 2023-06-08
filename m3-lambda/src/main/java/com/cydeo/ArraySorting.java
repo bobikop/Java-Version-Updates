@@ -16,7 +16,8 @@ public class ArraySorting {
 
         as.sort(() -> System.out.println("Quick Sorting"));
     }
-    private void sort(Sorting sorting){
+    private void sort(Sorting sorting){ // provide action as a method parameter
+        // depends on Sorting interface implementation that action will be called
         sorting.sort();
     }
 }
