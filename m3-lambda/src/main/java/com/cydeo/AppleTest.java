@@ -23,10 +23,7 @@ public class AppleTest {
 
         ApplePredicate weightApple = apple -> apple.getWeight()>200;
         filterApples(inventory,weightApple);
-
-
     }
-
     //Task
     //convert to ready functional interface
 
@@ -37,7 +34,6 @@ public class AppleTest {
         for(Apple apple : inventory){
             if(applePredicate.test(apple)){
                 result.add(apple);
-
             }
         }
         return result;
